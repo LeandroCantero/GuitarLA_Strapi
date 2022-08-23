@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cursos-dos",
+      "handler": "cursos-dos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cursos-dos/count",
+      "handler": "cursos-dos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cursos-dos/:id",
+      "handler": "cursos-dos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cursos-dos",
+      "handler": "cursos-dos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cursos-dos/:id",
+      "handler": "cursos-dos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cursos-dos/:id",
+      "handler": "cursos-dos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

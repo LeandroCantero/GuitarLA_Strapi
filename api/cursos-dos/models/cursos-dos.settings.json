@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cursos_dos",
+  "info": {
+    "name": "CursosDos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

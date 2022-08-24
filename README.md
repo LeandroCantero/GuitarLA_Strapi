@@ -1,3 +1,5 @@
 # Strapi application
 
-A quick description of your strapi application
+Página de Guitarras con Strapi, MongoDB y React.
+
+https://guitarla-next-6cgmde8sk-leandrocantero.vercel.app/
